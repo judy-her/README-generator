@@ -13,6 +13,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   let apache;
+  let mit;
   if (license === apache) {
     return 'https://opensource.org/licenses/Apache-2.0';
   }
