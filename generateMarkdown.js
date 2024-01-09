@@ -50,10 +50,11 @@
 // }
 
 // TODO: Create a function to generate markdown for README
-const generateMarkdown = ({ title, gitHub, email, name }) =>
+const generateMarkdown = ({ title, description, gitHub, email, name }) =>
   `# ${title}
   
   ## Description
+  ${description}
  ${gitHub}
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 ${email}
