@@ -51,7 +51,7 @@
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = ({ title, gitHub, email, name }) =>
-  `#${title}
+  `# ${title}
   
   ## Description
  ${gitHub}
