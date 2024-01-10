@@ -12,8 +12,15 @@ const questions = () => {
       name: 'description',
       type: 'input',
       message:
-        'Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:- What was your motivation?-Why did you build this project?-What problem does it solve?-What did you learn?-What is your  name?',
+        'Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:- What was your motivation?-Why did you build this project?-What problem does it solve?',
     },
+    {
+      name: 'usage',
+      type: 'input',
+      message:
+        'Usage: How should your application work? Provide instructions for use:  ',
+    },
+
     {
       name: 'license',
       type: 'list',
@@ -25,6 +32,13 @@ const questions = () => {
       type: 'input',
       message: 'What is your GitHub user name?',
     },
+    {
+      name: 'installation',
+      type: 'input',
+      message: 'How should you install? (npm i)',
+    },
+    { name: 'test', type: 'input', message: 'How should you test?(npm test)' },
+    { name: 'name', type: 'input', message: 'What is your name? ' },
     { name: 'email', type: 'input', message: 'What is your email? ' },
     // {
     //   name: 'description',

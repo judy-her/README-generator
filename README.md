@@ -1,19 +1,50 @@
-# Readme: A readme generator
-
-## License
-
-This project is licensed under the [apache](https://opensource.org/licenses/Apache-2.0) license.
-![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+# License Badge Check
+  undefined
+  ## License
+   This project is licensed under the [mit](https://opensource.org/licenses/MIT) license.
+   ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+  
 
 ## Description
+it was a project 
 
-its about a lot of stuff
-www.github.com
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-www.email@gmail.com
+## Table of Contents
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-  what is your name? undefined
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+To Install necessary dependencies, make sure to run the following command:
+npm i
+
+
+## Usage
+First run node index.js to start the generator.it will ask several ral questions which will be insterted in the correct section
+
+Don't forget to add a screenshot by creating  assets/images and use the following syntax: 
+    ![alt text](assets/images/screenshot.png)
+    
+
+
+## License
+   This project is licensed under the [mit](https://opensource.org/licenses/MIT) license.
+   ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+
+## Contributing
+
+If you would like to contribute, you can find this repo at [judy-her](https://github.com/judy-her)
+
+## Tests
+
+To run tests, run the following command:
+npm test
+
+## Questions
+
+For questions about the repo, feel free to email me Judith at judith85dm@ucla.edu
+

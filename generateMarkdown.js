@@ -59,23 +59,57 @@ const generateMarkdown = ({
   email,
   name,
   license,
+  installation,
+  usage,
+  test,
 }) => {
   const licenseSection = renderLicenseSection(license);
   return `# ${title}
+  ${licenseSection.licenseBadge}
   ${licenseSection}
   
-  
-  ## Description
-  ${description}
- ${gitHub}
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-${email}
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-what is your  name? ${name}
+## Description
+${description}
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+To Install necessary dependencies, make sure to run the following command:
+${installation}
+
+
+## Usage
+${usage}
+
+Don't forget to add a screenshot by creating  assets/images and use the following syntax: 
+    ![alt text](assets/images/screenshot.png)
+    
+
+
+${licenseSection}
+
+
+## Contributing
+
+If you would like to contribute, you can find this repo at [${gitHub}](https://github.com/${gitHub})
+
+## Tests
+
+To run tests, run the following command:
+${test}
+
+## Questions
+
+For questions about the repo, feel free to email me ${name} at ${email}
+
 `;
 };
 module.exports = generateMarkdown;
