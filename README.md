@@ -1,12 +1,8 @@
-# License Badge Check
-  undefined
-  ## License
-   This project is licensed under the [mit](https://opensource.org/licenses/MIT) license.
-   ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+# Generate README 1.0
+  ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
   
-
 ## Description
-it was a project 
+tThis solves time with more time to do code
 
 ## Table of Contents
 
@@ -23,17 +19,14 @@ npm i
 
 
 ## Usage
-First run node index.js to start the generator.it will ask several ral questions which will be insterted in the correct section
+open in terminal type node index.js to run, when pormpted  answer questions
 
 Don't forget to add a screenshot by creating  assets/images and use the following syntax: 
     ![alt text](assets/images/screenshot.png)
     
-
-
 ## License
-   This project is licensed under the [mit](https://opensource.org/licenses/MIT) license.
-   ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-
+   This project is licensed under the [gpl](https://www.gnu.org/licenses/gpl-3.0) license.
+   ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
 ## Contributing
 
@@ -42,7 +35,7 @@ If you would like to contribute, you can find this repo at [judy-her](https://gi
 ## Tests
 
 To run tests, run the following command:
-npm test
+```npm test```
 
 ## Questions
 

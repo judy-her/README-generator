@@ -63,12 +63,11 @@ const generateMarkdown = ({
   usage,
   test,
 }) => {
+  const licenseBadge = renderLicenseBadge(license);
   const licenseSection = renderLicenseSection(license);
   return `# ${title}
-  ${licenseSection.licenseBadge}
-  ${licenseSection}
+  ![License](${licenseBadge})
   
-
 ## Description
 ${description}
 
@@ -92,10 +91,7 @@ ${usage}
 Don't forget to add a screenshot by creating  assets/images and use the following syntax: 
     ![alt text](assets/images/screenshot.png)
     
-
-
 ${licenseSection}
-
 
 ## Contributing
 
