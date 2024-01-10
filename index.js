@@ -35,9 +35,15 @@ const questions = () => {
     {
       name: 'installation',
       type: 'input',
-      message: 'How should you install? (npm i)',
+      message: 'How should you install?',
+      default: '```npm i```',
     },
-    { name: 'test', type: 'input', message: 'How should you test?(npm test)' },
+    {
+      name: 'test',
+      type: 'input',
+      message: 'How should you test?',
+      default: '```npm test```',
+    },
     { name: 'name', type: 'input', message: 'What is your name? ' },
     { name: 'email', type: 'input', message: 'What is your email? ' },
     // {

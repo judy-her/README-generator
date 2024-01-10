@@ -1,8 +1,10 @@
-# Generate README 1.0
-  ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
-  
+# Readme testing default
+
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ## Description
-tThis solves time with more time to do code
+
+it solves time
 
 ## Table of Contents
 
@@ -14,19 +16,21 @@ tThis solves time with more time to do code
 - [Questions](#questions)
 
 ## Installation
-To Install necessary dependencies, make sure to run the following command:
-npm i
 
+To Install necessary dependencies, make sure to run the following command:
+`npm i`
 
 ## Usage
-open in terminal type node index.js to run, when pormpted  answer questions
 
-Don't forget to add a screenshot by creating  assets/images and use the following syntax: 
-    ![alt text](assets/images/screenshot.png)
-    
+open and run
+
+Don't forget to add a screenshot by creating assets/images and use the following syntax:
+![alt text](assets/images/screenshot.png)
+
 ## License
-   This project is licensed under the [gpl](https://www.gnu.org/licenses/gpl-3.0) license.
-   ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
+
+This project is licensed under the [mit](https://opensource.org/licenses/MIT) license.
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Contributing
 
@@ -35,9 +39,8 @@ If you would like to contribute, you can find this repo at [judy-her](https://gi
 ## Tests
 
 To run tests, run the following command:
-```npm test```
+`npm test`
 
 ## Questions
 
-For questions about the repo, feel free to email me Judith at judith85dm@ucla.edu
-
+For questions about the repo, feel free to email me judith at judith85dm@ucla.edu
