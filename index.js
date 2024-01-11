@@ -51,7 +51,7 @@ const questions = () => {
 //write file and include a catch for an error
 const init = () => {
   questions()
-    .then((answers) => writeFile('SampleREADME.md', generateMarkdown(answers)))
+    .then((answers) => writeFile('README.md', generateMarkdown(answers)))
     .then(() => console.log('Readme succesfully written'))
     .catch((err) => console.log(err));
 };
