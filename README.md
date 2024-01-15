@@ -23,6 +23,7 @@ To Install necessary dependencies, make sure to run the following command:
 ## Usage
 
 To get started go to your terminal type `node index.js`. From here you will be asked “What is your Project Title”. Type your answer and press enter. After, you will be given the next question. You will be asked to give a brief description of your project. In the question I have included some questions you can use as guidelines. Once you are done press enter and you will be given the next prompts. Once all prompts are answered, you will be shown a message that reads “Readme successfully written.”You can see your newly created README file under your project. For full access follow this link: https://github.com/judy-her/README-generator
+To see a video demo on using this app click here: https://drive.google.com/file/d/1jZOfMBxArINQw1V4pOcMN6rCrDwxGB_g/view
 
 Don't forget to add a screenshot by creating assets/images and use the following syntax:
 ![ScreenShot-READMEGenerator](assets/images/screenshot-ReadmeGenerator.png)
